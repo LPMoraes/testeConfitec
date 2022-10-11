@@ -65,11 +65,6 @@ public class ParcelamentoServiceImpl implements ParcelamentoService{
         BigDecimal diferenca = valorParcelamentoTotal.subtract(somaTodasAsDemaisParcelas);
         BigDecimal valorPrimeiraParcela = valorDemaisParcelas.add(diferenca);
 
-        return Dados.builder()
-                .quantidadeParcelas(qtdParcelas)
-                .valorPrimeiraParcela(valorPrimeiraParcela)
-                .valorDemaisParcelas(valorDemaisParcelas)
-                .valorParcelamentoTotal(valorParcelamentoTotal)
-                .build();
+        return new Dados(qtdParcelas, valorPrimeiraParcela, valorDemaisParcelas, valorParcelamentoTotal);
     }
 }

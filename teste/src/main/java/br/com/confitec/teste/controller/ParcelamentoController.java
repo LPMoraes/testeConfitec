@@ -1,5 +1,6 @@
 package br.com.confitec.teste.controller;
 
+import br.com.confitec.teste.exception.CoberturaException;
 import br.com.confitec.teste.exception.RequestDtoNullException;
 import br.com.confitec.teste.model.Dados;
 import br.com.confitec.teste.model.RequestDto;
@@ -26,8 +27,10 @@ public class ParcelamentoController {
                 throw new RequestDtoNullException("Requisicao invalida", HttpStatus.BAD_REQUEST);
             }
             return ResponseEntity.ok(parcelamentoService.recuperarParcelamento(dto.getListCobertura(), dto.getListOpcaoParcelamento()));
-        }catch (RequestDtoNullException ex){
-           return new ResponseEntity(ex.getMessage(), ex.getHttpStatus());
+        }catch (RequestDtoNullException ex) {
+            return new ResponseEntity(ex.getMessage(), ex.getHttpStatus());
+        }catch (CoberturaException ex){
+            return new ResponseEntity(ex.getMessage(), ex.getHttpStatus());
         }catch (Exception ex){
             return new ResponseEntity(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
