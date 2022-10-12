@@ -8,8 +8,7 @@ API Rest desenvolvida em Spring Boot (Java) para calcular plano de pagamento de 
 
 `Link para acessar documentação via Swagger:` http://localhost:8080/swagger-ui.html.
 
-`JSON exemplo de entrada:`
-
+`JSON exemplo de entrada:` Request: https://pastecode.io/s/fz606jgw
 ```json
 {
   "listCobertura": [
@@ -28,7 +27,7 @@ API Rest desenvolvida em Spring Boot (Java) para calcular plano de pagamento de 
 }
 ```
 
-`JSON exemplo de saída:`
+`JSON exemplo de saída:` Response: https://pastecode.io/s/0x8w819p
 ```json
 [
   {
