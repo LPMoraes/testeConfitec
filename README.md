@@ -2,12 +2,15 @@
 
 API Rest String Boot (Java) para calcular plano de pagamento de uma apólice.
 
-Endpoint: /confitec/teste/parcelamento
-Método: POST
-Link para acessa documentação Swagger: http://localhost:8080/swagger-ui.html
+`Endpoint:` /confitec/teste/parcelamento.
+
+`Método:` POST.
+
+`Link para acessa documentação Swagger:` http://localhost:8080/swagger-ui.html.
+
+`JSON exmpleto de entrada:`
 
 
-*JSON exmpleto de entrada:*
 {
   "listCobertura": [
     {
@@ -24,7 +27,7 @@ Link para acessa documentação Swagger: http://localhost:8080/swagger-ui.html
   ]
 }
 
-*JSON xemplo de saída:
+`JSON xemplo de saída:`
 
 [
   {
