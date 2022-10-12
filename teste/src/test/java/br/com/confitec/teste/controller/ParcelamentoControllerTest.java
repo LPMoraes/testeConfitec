@@ -5,11 +5,9 @@ import br.com.confitec.teste.exception.RequestDtoNullException;
 import br.com.confitec.teste.model.Dados;
 import br.com.confitec.teste.model.RequestDto;
 import br.com.confitec.teste.service.ParcelamentoService;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.jeasy.random.EasyRandom;
-import org.json.JSONObject;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -22,7 +20,6 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
