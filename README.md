@@ -10,7 +10,7 @@ API Rest desenvolvida em Spring Boot (Java) para calcular plano de pagamento de 
 
 `JSON exmpleto de entrada:`
 
-
+```json
 {
   "listCobertura": [
     {
@@ -26,9 +26,10 @@ API Rest desenvolvida em Spring Boot (Java) para calcular plano de pagamento de 
     }
   ]
 }
+```
 
 `JSON xemplo de saída:`
-
+```json
 [
   {
     "quantidadeParcelas": 0,
@@ -37,5 +38,6 @@ API Rest desenvolvida em Spring Boot (Java) para calcular plano de pagamento de 
     "valorPrimeiraParcela": 0
   }
 ]
+```
 
 
