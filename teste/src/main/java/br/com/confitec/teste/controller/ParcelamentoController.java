@@ -5,6 +5,7 @@ import br.com.confitec.teste.exception.RequestDtoNullException;
 import br.com.confitec.teste.model.Dados;
 import br.com.confitec.teste.model.RequestDto;
 import br.com.confitec.teste.service.ParcelamentoService;
+import io.swagger.annotations.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
