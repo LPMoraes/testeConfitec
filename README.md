@@ -1,6 +1,6 @@
 # testeConfitec
 
-API Rest String Boot (Java) para calcular plano de pagamento de uma apólice.
+API Rest desenvolvida em Spring Boot (Java) para calcular plano de pagamento de uma apólice.
 
 `Endpoint:` /confitec/teste/parcelamento.
 
