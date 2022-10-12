@@ -2,6 +2,7 @@ package br.com.confitec.teste.model;
 
 
 import lombok.Data;
+
 import java.util.List;
 
 @Data

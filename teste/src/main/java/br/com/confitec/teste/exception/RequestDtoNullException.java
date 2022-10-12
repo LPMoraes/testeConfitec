@@ -3,8 +3,6 @@ package br.com.confitec.teste.exception;
 import lombok.Data;
 import org.springframework.http.HttpStatus;
 
-import java.util.Objects;
-
 @Data
 public class RequestDtoNullException extends RuntimeException{
 
@@ -16,6 +14,6 @@ public class RequestDtoNullException extends RuntimeException{
     }
 
     public static String montarMensagem(boolean flag){
-        return "Nenhuma".concat(flag ? "cobertura" : " opção de parcelamento ").concat("foi encontrada");
+        return "Nenhuma".concat(flag ? " cobertura " : " opcao de parcelamento ").concat("foi encontrada");
     }
 }
