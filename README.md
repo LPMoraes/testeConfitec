@@ -6,9 +6,9 @@ API Rest desenvolvida em Spring Boot (Java) para calcular plano de pagamento de 
 
 `Método:` POST.
 
-`Link para acessa documentação Swagger:` http://localhost:8080/swagger-ui.html.
+`Link para acessar documentação via Swagger:` http://localhost:8080/swagger-ui.html.
 
-`JSON exmpleto de entrada:`
+`JSON exemplo de entrada:`
 
 ```json
 {
@@ -28,7 +28,7 @@ API Rest desenvolvida em Spring Boot (Java) para calcular plano de pagamento de 
 }
 ```
 
-`JSON xemplo de saída:`
+`JSON exemplo de saída:`
 ```json
 [
   {
